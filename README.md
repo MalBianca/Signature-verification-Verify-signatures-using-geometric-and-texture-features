@@ -4,7 +4,7 @@
 A Python-based system that extracts geometric and texture features to classify signatures as authentic or forged using image processing techniques.
 
 ## Overview
-Handwritten signatures are widely used for identity authentication, especially in financial and legal contexts. This project implements an offline signature verification pipeline — working directly on 2D signature images — using four feature extraction methods that capture distinct aspects of a signature's structure.
+Handwritten signatures are widely used for identity authentication, especially in financial and legal contexts. This project implements an offline signature verification pipeline working directly on 2D signature images using four feature extraction methods that capture distinct aspects of a signature's structure.
 
 ## Pipeline
 The system follows a standard image processing workflow:
@@ -47,5 +47,5 @@ $$slope = \arctan\left(\frac{dy}{dx}\right)$$
 
 ## Future Work
 * Combine all four methods into a weighted ensemble classifier.
-* Integrate machine learning (e.g., SVM, CNN) for automatic threshold tuning.
+* Integrate machine learning ( SVM, CNN) for automatic threshold tuning.
 * Evaluate on larger, standardized signature datasets.
