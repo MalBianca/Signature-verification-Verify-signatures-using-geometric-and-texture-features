@@ -1,5 +1,5 @@
 # Signature-verification-Verify-signatures-using-geometric-and-texture-features
-# Offline Handwritten Signature Verification System
+
 
 ## Overview
 Handwritten signatures are widely used for identity authentication, especially in financial and legal contexts. This project implements an offline signature verification pipeline working directly on 2D signature images using four feature extraction methods that capture distinct aspects of a signature's structure.
